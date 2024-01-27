@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 45vw;
+}
+
+h1 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 50px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p0 {
+    margin-right: 200px;
+    margin-top: 140px;
+    position: absolute;
+}
+
+.p1 {
+    margin-left: 200px;
+    margin-top: 140px;
+    position: absolute;
+}
+
+.res0 {
+    position: absolute;
+    margin-right: 750px;
+    font-size: 50px;
+}
+.res1 {
+    position: absolute;
+    margin-left: 750px;
+    font-size: 50px;
+}
+
+.active {
+    background: linear-gradient(#e27878, #9198e5);
+    width:50%;
+}
+
+.second {
+    background: linear-gradient(#e61515, #246284);
+    width:50%;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+}
+
+.score--0 {
+    margin-top: 80px;
+    font-size: 120px;
+    background: linear-gradient(#18970cc6, #5aed77);
+    border-radius: 15%;
+    padding: 20px;
+    text-align: center;
+}
+.score--1 {
+    margin-top: 80px;
+    font-size: 120px;
+    background: linear-gradient(#18970cc6, #5aed77);
+    border-radius: 15%;
+    padding: 20px;
+    text-align: center;
+}
+
+.death {
+    margin-top: 80px;
+    font-size: 120px;
+    background: linear-gradient(#8a0808c6, #fe0d00);
+    border-radius: 15%;
+    padding: 20px;
+    text-align: center;
+}
+
+.hp {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+#player--0 {
+    font-size: 120px;
+    margin: 0 auto;
+}
+
+#player--1 {
+    font-size: 120px;
+    margin: 0 auto;
+}
+
+button {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.atk-btn {
+    background-color: #ff0000fc;
+}
+
+.atk-btn:hover {
+    color:white;
+    background-color: #160606fc;
+}
+
+.def-btn {
+    background-color: #b9b7b7fc;
+}
+.def-btn:hover {
+    color:white;
+    background-color: #160606fc;
+}
+.lck-btn {
+    background-color: #00ff33;
+}
+.lck-btn:hover {
+    color:white;
+    background-color: #160606fc;
+}
+
